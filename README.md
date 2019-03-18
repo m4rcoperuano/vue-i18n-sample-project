@@ -1,21 +1,37 @@
-# hello-world
+# Hello World Vue Internationlization Project
 
-## Project setup
-```
-npm install
+## Setup
+
+This project was created using the Vue CLI tool. It started up a simple prototyping application.
+
+Run `npm install` and `npm run serve` to start this application.
+
+## Repo Folder Structure
+
+```text
+
+|-- README.md
+|-- src
+    |-- assets
+        |-- logo.png
+    |-- components
+        |-- content
+            |-- Contact.vue
+            |-- Home.vue
+            |-- Login.vue
+        |-- navigation
+            |-- Menu.vue
+    |-- i18n
+        |-- locales
+            |-- en
+                |-- _common.js
+                |-- index.js
+            |-- es
+                |-- _common.js
+                |-- index.js
+            |-- index.js
+        |-- index.js
+    |-- App.vue
+    |-- main.js
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
