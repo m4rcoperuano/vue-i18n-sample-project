@@ -2,7 +2,7 @@ import Vue from 'vue';
 import VueI18Next from '@panter/vue-i18next';
 import i18next from 'i18next';
 import resources from './locales';
-import moment from 'moment';
+import moment from 'moment'; //date util
 
 Vue.use(VueI18Next);
 

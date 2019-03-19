@@ -6,12 +6,12 @@
     <form>
       <div class="form-group">
         <label>{{ $t('labels.username') }}</label>
-        <input v-model='username' type="text" name="username">
+        <input v-model='username' type="text" name="_u" autocomplete="false">
       </div>
 
       <div class="form-group">
         <label>{{ $t('labels.password') }}</label>
-        <input v-model='password' type="password" name="password">
+        <input v-model='password' type="password" name="_p" autocomplete="false">
       </div>
       
       <label v-if='this.password && isBelowMinimumCharacterLengthForPassword' class="error">

@@ -4,6 +4,9 @@
 
 This project was created using the Vue CLI tool. It started up a simple prototyping application.
 
+Two core dependencies to get translations to work are `i18next`, and `@panter/vue-i18next`.
+The other dependency is `moment.js`, but thats more just to show how date formatting can be configured.
+
 Run `npm install` and `npm run serve` to start this application.
 
 ## Repo Folder Structure
@@ -12,8 +15,6 @@ Run `npm install` and `npm run serve` to start this application.
 
 |-- README.md
 |-- src
-    |-- assets
-        |-- logo.png
     |-- components
         |-- content
             |-- Contact.vue
