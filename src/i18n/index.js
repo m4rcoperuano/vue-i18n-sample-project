@@ -10,7 +10,7 @@ i18next.init({
   fallbackLng: 'en',
   resources,
   parseMissingKeyHandler: function () {
-    return 'Invalid i18 Key';
+    return 'Invalid i18n Key';
   }
 });
 
