@@ -1,4 +1,5 @@
 export default {
+    todaysDate: "Hoy es {{date, YYYY-MM-DD}}",
     pages: {
         home: {
             title: "Casa",

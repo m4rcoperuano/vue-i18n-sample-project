@@ -18,6 +18,8 @@
       </div>
     </div>
 
+    <!-- FOOTER -->
+    <p v-html="$t('_common:todaysDate', { date: new Date() })"></p>
   </div>
 </template>
 

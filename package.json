@@ -10,6 +10,7 @@
   "dependencies": {
     "@panter/vue-i18next": "^0.15.0",
     "i18next": "^15.0.7",
+    "moment": "^2.24.0",
     "vue": "^2.6.6"
   },
   "devDependencies": {

@@ -4,7 +4,7 @@
         <p>{{ $t('content.whatThisIsFor') }}</p>
         
         <button @click="toggleLanguage">
-            {{ $t('buttons.changeLanguage', { lang: this.changeLanguageToLang() }) }}
+            {{ $t('buttons.changeLanguage', { lang: this.getNewLanguageToChangeTo() }) }}
         </button>
     </div>
 </template>
@@ -24,7 +24,7 @@
                     this.$i18n.i18next.changeLanguage('en');
                 }
             },
-            changeLanguageToLang() {
+            getNewLanguageToChangeTo() {
                 return this.$i18n.i18next.language === 'en' ?
                     'Spanish' :
                     'English';
