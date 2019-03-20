@@ -1,4 +1,4 @@
-# Hello World Vue Internationlization Project
+# i18n Vue Internationlization Project
 
 ## Setup
 
